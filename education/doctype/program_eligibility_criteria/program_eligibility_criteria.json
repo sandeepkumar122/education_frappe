@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-27 15:57:48.751326",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "program",
+  "minimum_qualification",
+  "minimum_10th_percentage",
+  "minimum_12th_percentage",
+  "graduation",
+  "post_graduation",
+  "subject_specialization",
+  "cat_marks",
+  "gate_marks",
+  "gmate",
+  "gre"
+ ],
+ "fields": [
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Program"
+  },
+  {
+   "fieldname": "minimum_qualification",
+   "fieldtype": "Select",
+   "label": "Minimum Qualification ",
+   "options": "\n10th\n12th\nGraduation\nPost Graduation"
+  },
+  {
+   "fieldname": "minimum_10th_percentage",
+   "fieldtype": "Percent",
+   "label": "10th percentage "
+  },
+  {
+   "fieldname": "minimum_12th_percentage",
+   "fieldtype": "Percent",
+   "label": "12th percentage "
+  },
+  {
+   "fieldname": "graduation",
+   "fieldtype": "Percent",
+   "label": "Graduation "
+  },
+  {
+   "fieldname": "subject_specialization",
+   "fieldtype": "Data",
+   "label": "Subject Specialization"
+  },
+  {
+   "fieldname": "post_graduation",
+   "fieldtype": "Percent",
+   "label": "Post graduation"
+  },
+  {
+   "fieldname": "cat_marks",
+   "fieldtype": "Int",
+   "label": "CAT marks"
+  },
+  {
+   "fieldname": "gate_marks",
+   "fieldtype": "Int",
+   "label": "GATE marks"
+  },
+  {
+   "fieldname": "gmate",
+   "fieldtype": "Int",
+   "label": "GMATE"
+  },
+  {
+   "fieldname": "gre",
+   "fieldtype": "Int",
+   "label": "GRE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-28 13:41:43.111770",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "Program Eligibility Criteria",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

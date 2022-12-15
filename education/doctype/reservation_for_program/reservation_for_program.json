@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{reservation}--{program}--{academic_year}",
+ "creation": "2022-05-05 13:07:29.633588",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reservation",
+  "number_of_seats_for_this_reservation",
+  "academic_year"
+ ],
+ "fields": [
+  {
+   "fieldname": "reservation",
+   "fieldtype": "Link",
+   "label": "Reservation",
+   "options": "reservation"
+  },
+  {
+   "fieldname": "number_of_seats_for_this_reservation",
+   "fieldtype": "Percent",
+   "label": "Number Of Seats for this reservation"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "label": "Academic year",
+   "options": "Academic Year"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-05-10 13:58:37.706196",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "reservation for program",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

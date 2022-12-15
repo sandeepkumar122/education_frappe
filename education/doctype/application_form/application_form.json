@@ -1,0 +1,344 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-27 12:41:36.460549",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "ug_marksheet_name",
+  "mother_name",
+  "dob",
+  "image",
+  "gender",
+  "blood_groups",
+  "photo",
+  "signature",
+  "data_8",
+  "country",
+  "state",
+  "city",
+  "residence_address",
+  "pin_code_no",
+  "parmanent_address",
+  "admission_type",
+  "category",
+  "state_of_domicile",
+  "nationality",
+  "adhar_card",
+  "religion",
+  "quota_section",
+  "reservation",
+  "de_abled",
+  "ex_serviceman",
+  "sport_universitystatenationalinternational",
+  "have_you_attended_ncc_cadets_republic_day_rd__parade_and_camp",
+  "have_you_attended_nss_cadets_republic_day_rd__parade_and_camp",
+  "kashmiri_migrants",
+  "freedom_fighter",
+  "single_girl_child",
+  "international_students",
+  "tuition_fee_waiver_scheme",
+  "blind",
+  "program_section",
+  "select_program",
+  "educational_detail_section",
+  "select_entrance_exam",
+  "enter_mark",
+  "minimum_qualification",
+  "column_break_37",
+  "ug",
+  "documents_column",
+  "10th_certificate_photo",
+  "12th_certificate_photo"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ug_marksheet_name",
+   "fieldtype": "Data",
+   "label": "UG marksheet name"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mother Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DOB",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "image"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "data_8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Male\nFemale\nOthers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "residence_address",
+   "fieldtype": "Data",
+   "label": "Residence Address"
+  },
+  {
+   "fieldname": "pin_code_no",
+   "fieldtype": "Data",
+   "label": "Pin Code No."
+  },
+  {
+   "fieldname": "parmanent_address",
+   "fieldtype": "Data",
+   "label": "Parmanent Address"
+  },
+  {
+   "fieldname": "admission_type",
+   "fieldtype": "Data",
+   "label": "Admission Type"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "state_of_domicile",
+   "fieldtype": "Data",
+   "label": "State of Domicile"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "adhar_card",
+   "fieldtype": "Data",
+   "label": "Adhar Card"
+  },
+  {
+   "fieldname": "religion",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Religion"
+  },
+  {
+   "fieldname": "blood_groups",
+   "fieldtype": "Select",
+   "label": "Blood Groups",
+   "options": "AB\nA+\nB+\nA-\nB-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "de_abled",
+   "fieldtype": "Select",
+   "label": "DE Abled",
+   "options": "\nYES\nNo"
+  },
+  {
+   "fieldname": "ex_serviceman",
+   "fieldtype": "Select",
+   "label": "EX Serviceman",
+   "options": "yes\nno"
+  },
+  {
+   "fieldname": "sport_universitystatenationalinternational",
+   "fieldtype": "Select",
+   "label": "Sport (University/State/National/International)",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "have_you_attended_ncc_cadets_republic_day_rd__parade_and_camp",
+   "fieldtype": "Select",
+   "label": "Have you attended NCC cadets Republic Day (R.D.)  Parade and Camp",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "have_you_attended_nss_cadets_republic_day_rd__parade_and_camp",
+   "fieldtype": "Select",
+   "label": "Have you attended NSS cadets Republic Day (R.D.)  Parade and Camp",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "kashmiri_migrants",
+   "fieldtype": "Select",
+   "label": "Kashmiri Migrants",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "freedom_fighter",
+   "fieldtype": "Select",
+   "label": "freedom fighter",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "single_girl_child",
+   "fieldtype": "Select",
+   "label": "Single girl Child",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "international_students",
+   "fieldtype": "Select",
+   "label": "International Students",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "tuition_fee_waiver_scheme",
+   "fieldtype": "Select",
+   "label": "Tuition Fee Waiver Scheme",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "blind",
+   "fieldtype": "Select",
+   "label": "Blind?",
+   "options": "YES\nNO"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "column_break_37",
+   "fieldtype": "Section Break",
+   "label": "Certificates"
+  },
+  {
+   "fieldname": "ug",
+   "fieldtype": "Data",
+   "label": "UG"
+  },
+  {
+   "fieldname": "documents_column",
+   "fieldtype": "Column Break",
+   "label": "Documents"
+  },
+  {
+   "fieldname": "10th_certificate_photo",
+   "fieldtype": "Attach",
+   "label": "10th Certificate photo"
+  },
+  {
+   "fieldname": "12th_certificate_photo",
+   "fieldtype": "Attach",
+   "label": "12th certificate photo"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "quota_section",
+   "fieldtype": "Section Break",
+   "label": "Quota"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "educational_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Educational Detail"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "program_section",
+   "fieldtype": "Section Break",
+   "label": "Program "
+  },
+  {
+   "fieldname": "select_program",
+   "fieldtype": "Link",
+   "label": "Select Program",
+   "options": "admission program"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "Photo"
+  },
+  {
+   "fieldname": "select_entrance_exam",
+   "fieldtype": "Link",
+   "label": "Select Entrance Exam",
+   "options": "entrance"
+  },
+  {
+   "fieldname": "enter_mark",
+   "fieldtype": "Int",
+   "label": "Enter mark"
+  },
+  {
+   "fieldname": "minimum_qualification",
+   "fieldtype": "Link",
+   "label": "Minimum qualification",
+   "options": "qualification"
+  },
+  {
+   "fieldname": "reservation",
+   "fieldtype": "Link",
+   "label": "reservation",
+   "options": "reservation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-29 12:47:11.066420",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "Application form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

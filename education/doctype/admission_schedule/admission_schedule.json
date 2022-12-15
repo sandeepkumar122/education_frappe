@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:program",
+ "creation": "2022-04-26 17:52:24.778040",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "program",
+  "application_start_date",
+  "application_end_date",
+  "group_discussion",
+  "personal_interview",
+  "merit_list_publication",
+  "admission_round_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "application_start_date",
+   "fieldtype": "Date",
+   "label": "Application start date"
+  },
+  {
+   "fieldname": "application_end_date",
+   "fieldtype": "Date",
+   "label": "Application end date"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "program",
+   "options": "admission program",
+   "unique": 1
+  },
+  {
+   "fieldname": "group_discussion",
+   "fieldtype": "Date",
+   "label": "Group discussion"
+  },
+  {
+   "fieldname": "personal_interview",
+   "fieldtype": "Date",
+   "label": "personal interview"
+  },
+  {
+   "fieldname": "merit_list_publication",
+   "fieldtype": "Date",
+   "label": "Merit List Publication "
+  },
+  {
+   "fieldname": "admission_round_date",
+   "fieldtype": "Date",
+   "label": "Admission round Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-29 14:20:55.333092",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "admission schedule",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
